@@ -2,48 +2,49 @@
 *{
     margin: 0;
     padding: 0;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-
+    
 }
 
 header {
-    width: 700px 300px;
-    background: #c0c0c0
+    margin: 70px;
+    padding: 50px;
+    background-color: #c0c0c0;
 }
 
-nav {
-    position: relative;
-    flood-opacity: center;
+/*-------NavigationBar------*/
 
+#nav-bar {
+    position: -webkit-sticky;
+    bottom: 0;
+    z-index: 10;
 }
 
-menu-area ul {
-    text-decoration: none;
-    color: #ff0000;
-    letter-spacing: 1px;
-    text-transform: uppercase;
+.navbar-brand img {
+    position: float;
+    height: 120px;
+    padding-left: 30px;
 }
 
-menu-area li a {
-    list-style: none;
-    display: inline-block;
+.navbar-nav li {
+padding: 0 10px
 }
 
-.custom-padding {
-    padding-top: 25px;
+.navbar-nav li a {
+    float: left;
+    text-align: left;
 }
 
-nav {
-    position: relative;
-    padding: 10px 10px 10px 10px;
-    text-align: right;
-    z-index: 1;
-    background: #e0e0e0;
-    margin: 0 auto;
-    width:calc(100%-60px);
-
+#nav-bar ul li a:hover {
+    color: #0404d3!important;
 }
-
-.logo1 {width: 15%;}
+.navbar {
+    background-color: #ff0000;
+}
+.navbar-toggler {
+    border: none!important;
+}
+.nav-link {
+    color: #555000!important;
+    font-weight: 600;
+    font-size: 16px;
+}
